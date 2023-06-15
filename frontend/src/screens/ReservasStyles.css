@@ -1,0 +1,613 @@
+.imagen-reservas {
+    width: 13rem;
+    height: 13rem;
+}
+.imagen-placeorder {
+  width: 6rem;
+  height: 6rem;
+}
+.imagen-orden {
+  width: 8rem;
+  height: 8rem;
+}
+.titulo-orden {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 35px;
+  font-weight: 300;
+  padding: 0rem 1rem;
+}
+.contenedor-mensajes-order {
+  margin-top: 3rem;
+}
+@media (max-width: 768px){
+  .titulo-orden {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.contendor-reservas {
+  margin: auto!important;
+  overflow-x:scroll!important;
+}
+.nombre-producto-reservas {
+    font-size: 14px;
+    margin-left: 5px;
+    transition: all ease-in-out .3s;
+    align-items: center;
+    display: flex;
+}
+.contenedor-servicio-seleccionado-link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.nombre-producto-orden {
+  font-size: 16px;
+  margin-left: 15px;
+  transition: all ease-in-out .3s;
+  align-items: center;
+  display: flex;
+}
+.fecha-tabla-head {
+  max-width: 120px!important;
+}
+.id-tabla-head {
+  min-width: 117px!important;
+}
+.contentedor-servicio-tabla {
+  max-width: 160px!important;
+}
+.contentedor-servicio-tabla-producto {
+  max-width: 250px!important;
+}
+.contentedor-dia-tabla {
+  max-width: 130px!important;
+}
+.nombre-tabla-head {
+  max-width: 100px!important;
+}
+.confirmada {
+  background-color: #ffffff;
+    padding: 4px;
+    color: #188753;
+    border-radius: 18px;
+    width: 97px;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #28c17a;
+    font-size: 11px!important;
+}
+.auto-confirmada {
+  background-color: #ffffff;
+    padding: 4px;
+    color: #188753;
+    border-radius: 18px;
+    width: 130px;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #28c17a;
+    font-size: 11px!important;
+}
+.cancelada {
+  background-color: #ffffff;
+    padding: 4px;
+    color: #dc3645;
+    border-radius: 18px;
+    width: 97px;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dc3645;
+    font-size: 11px!important;
+}
+.pendiente {
+  background-color: #ffffff;
+    padding: 4px;
+    color: #ae8302;
+    border-radius: 18px;
+    width: 97px;
+    margin: auto;
+    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d9a404;
+    font-size: 11px!important;
+}
+
+.nombre-producto-reservas:hover {
+    text-decoration: underline;
+}
+.contenedor-vertical {
+    padding-top: 5rem;
+    padding-bottom: 17rem;
+    margin: auto!important;
+    align-items: flex-start;
+    /* min-height: 171px; */
+  }
+  .contenedor-principal-ordenes {
+    margin-bottom: 10rem;
+    min-height: 475px;
+  }
+  .titulo-listado-reservas {
+    font-size: 25px;
+  }
+
+  @media (max-width:768px) {
+    .titulo-listado-reservas {
+      text-align: center;
+      margin-bottom: 2rem!important;
+      margin-top: -2rem!important;
+    }
+    .contenedor-boton-cotizaciones {
+      margin-top: 3rem!important;
+    }
+    .subtitulo-listado-reservas {
+      text-align: center;
+    }
+  }
+  .subtitulo-listado-reservas {
+    margin-bottom: 3rem;
+    margin-top: -5px;
+  }
+  .titulo-reservas {
+    font-size: 31px;
+    margin-top: 1rem!important;
+    margin-bottom: 2rem!important;
+    font-weight: 300;
+    padding: 0rem 1rem;
+  }
+  .alerta-reservas {
+    margin-top: 2rem;
+  }
+  .precio-reservas {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .boton-delete {
+    color: #dc3546;
+    font-size: 16px;
+    margin-left: 50px;
+  }
+  .boton-delete:hover {
+    color:#ac2c39;
+  }
+
+.extension-cupo {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 2rem;
+}
+.click-aqui-cupo {
+  text-decoration: underline;
+  font-weight: 600;
+}
+.subtitulo-ampliacion-cupo {
+  font-size: 14px;
+}
+
+.boton-reservas-order {
+  height: 40px;
+  font-size: 17px!important;
+  width: 100%!important;
+  font-weight: 500;
+  border-radius: 3.5rem!important;
+  letter-spacing: 1px;
+  border: 1px solid #0067fe;
+  background-color: white;
+  color: #0067fe;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+.boton-reservas-order:hover {
+  border: 2px solid #0067fe;
+  background-color: white;
+  color: #0067fe;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .titulo-reservas {
+    text-align: center;
+    margin-top: 1rem!important;
+    margin-bottom: 1rem!important;
+  }
+  .boton-reservas-order {
+    height: 40px;
+    font-size: 17px!important;
+    width: 100%!important;
+    font-weight: 500;
+    border-radius: 3.5rem!important;
+    letter-spacing: 1px;
+    border: 2px solid #0067fe;
+    background-color: white;
+    color: #0067fe;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+  }
+
+  .boton-delete {
+    margin-left: 0px;
+  }
+}
+
+.contenedor-boton-editar-reserva {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.subtitulo-editar-reserva {
+  font-size: 19px;
+  font-weight: 400;
+}
+.sin-modificaciones {
+  color: #842029;
+  font-size: 15px;
+}
+.contenedor-mensaje-tangos-horario {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.mensaje-tango {
+  margin: 0;
+  font-size: 14px;
+}
+.link-historial-reserva {
+  color: #0067fe;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.link-historial-reserva:hover {
+  text-decoration: underline;
+}
+.label-servicio-seleccionado {
+  display: flex;
+  min-width: 150px;
+}
+.label-calendario {
+  font-weight: bold;
+  font-size: 16px!important;
+  text-align: center;
+}
+.contenedor-modal-historial {
+  display: flex;
+  flex-direction: column;
+}
+
+/* SHIPPING ADDRESS FIRST */
+
+.contenedor-titulo-principal-shippingfirst {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  align-items: start;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+.contenedor-mensaje-shippingaddresfirst {
+  margin-top: -11px;
+  margin-bottom: -10px;
+  width: 50%;
+}
+.titulo-principal-shippingfirst {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 3rem;
+  
+}
+.contenedor-card-formulario-shippingfirst {
+  margin-bottom: 2rem;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-mensaje-tangos-horario-shippingfirst {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.titulo-form-verifica-disponibilidad {
+  font-size: 21px;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.contenedor-calendario-shippingfirst {
+  margin-bottom: 0rem;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rdp-caption_label {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  padding: 0 0.25em;
+  white-space: nowrap;
+  color: currentColor;
+  border: 0;
+  border: 2px solid transparent;
+  font-family: inherit;
+  font-size: 26px!important;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.rdp-button:not([disabled]) {
+  cursor: pointer;
+  font-size: 18px!important;
+}
+.texto-inicial-calendario-shippingfirst {
+    font-size: 18px!important;
+    font-weight: bold;
+    text-align: center;
+}
+.grid-formulario-shippingfirst {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-around;
+  column-gap: 55px;
+  margin-bottom: 6rem;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+.subtitulo-form-verifica-disponibilidad-shippingfirst {
+  font-size: 16px!important;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.contenedor-mensaje-cupo-shippingfirst {
+  margin-top: -15rem;
+  text-align: center;
+}
+.contenedor-mensaje-shipping-modificacion {
+  margin-top: 0rem;
+  text-align: center;
+}
+.contenedor-boton-verificar-cupo-shippingfirst {
+  margin-bottom: 0rem;
+  text-align: center;
+}
+.titulo-modificacion {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.titulo-edicion-modificacion {
+  font-size: 30px;
+}
+.check-modificacion {
+  border-radius: .5rem!important;
+}
+.servicio-disponibilidad-modificacion {
+  font-size: 17px;
+}
+.icono-calendario-modificacion {
+  font-size: 30px;
+}
+.icono-volver-modificacion {
+  font-size: 22px;
+  margin-right: 7px;
+}
+.extension-cupo-shippingfirst {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+.contenedor-pasajeros-shippingsecond {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contenedor-pasajeros-shippingsecond {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  margin-top: -9px;
+}
+.contenedor-interno-pasajeros-shippingsecond {
+  display: flex;
+}
+.adultos-shippingsecond {
+  margin-right: 18px;
+  font-size: 14px;
+}
+.contenedor-interno-datos-shippingsecond {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-datos-principal {
+  display: grid;
+  grid-template-columns: 63% 35%;
+  margin-bottom: 1rem;
+  margin-top: -10px;
+}
+.contenedor-fecha-shippingsecond {
+  min-width: 450px!important;
+}
+.strong-dato-shippingsecond {
+  font-size: 14px!important;
+}
+.titulo-principal-shipping {
+  font-size: 39px!important;
+}
+.strong-paginacion-shipping {
+  margin-left: 18px;
+  font-size: 34px;
+}
+.titulo-principal-shippingsecond {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.bloque-form2shippingsecond {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  margin-top: 4rem;
+}
+.boton-volver-shippingsecond {
+  display: flex;
+  font-size: 18px;
+}
+.enlace-flecha-volver-shippingsecond {
+  font-size: 30px;
+  margin-right: 20px;
+}
+.rdp-table {
+  max-width: calc(var(--rdp-cell-size) * 8.5);
+  border-collapse: collapse;
+  width: 100%!important;
+  margin: auto;
+  margin-top: 0px;
+} 
+.rdp-month:last-child {
+  margin-right: 0;
+  width: 100%;
+}
+.rdp-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  text-align: left;
+  width: 83%;
+  margin: auto;
+  width: 62%!important;
+}
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #0000ff;
+  --rdp-background-color: #e7edff;
+  --rdp-accent-color-dark: #3003e1;
+  --rdp-background-color-dark: #180270;
+  --rdp-outline: 2px solid var(--rdp-accent-color);
+  --rdp-outline-selected: 3px solid var(--rdp-accent-color);
+  margin: 1em;
+  width: 100%!important;
+}
+.contenedor-footer-calendario {
+  width: 100%;
+}
+.contenedor-carterl-verificar-fecha {
+  margin-top: 1rem;
+}
+.logo-user-shippingfirst {
+  font-size: 17px;
+}
+
+
+.enlace-cloudinary {
+  font-size: 14px;
+}
+
+.contenedor-botones-historial-reservas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+/* .icono-refresh-orden {
+  margin-left: 4rem;
+} */
+
+.contenedor-titulo-refresh-orden {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.contenedor-titulo-refresh-orden:hover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.icono-refresh-orden {
+  font-size: 34px;
+  margin-right: 10px;
+  color: #0067fe;
+  cursor: pointer;
+}
+.icono-editar-orden {
+  font-size: 26px;
+  margin-right: 10px;
+  color: #0067fe;
+  cursor: pointer;
+}
+.contenedor-enlace-refresh-orden {
+  display: flex;
+  align-items: center;
+  /* margin-right: 40px; */
+  min-width: 223px;
+}
+.contenedor-enlace-refresh-orden:hover {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+}
+.contenedor-botones-actualizar-listado {
+  display: flex;
+}
+.contenedor-botones-drive-excel {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+.boton-google-drive {
+  background-color: white;
+  /* height: 35px; */
+  /* color: rgb(110, 110, 110); */
+  font-size: 19px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: none;
+}
+.icono-drive {
+  font-size: 26px;
+  margin-right: 6px;
+  color: rgb(0, 230, 0)!important;
+}
+
+.boton-descargar-excel {
+  background-color: white;
+  border: none;
+  margin-right: 22px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+}
+.icono-excel {
+  font-size: 27px;
+  color: rgb(23, 92, 0);
+  margin-right: 4px;
+}
+.logo-google-drive {
+  width: 26px!important;
+  height: 26px!important;
+}

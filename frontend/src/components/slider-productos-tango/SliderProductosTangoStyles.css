@@ -1,0 +1,26 @@
+.slick-next {
+    right: 5px!important;
+    top: 29%!important;
+    height: 20px!important;
+}
+.slick-prev {
+    left: -20px!important;
+    top: 29%!important;
+    height: 20px!important;
+}
+
+@media (max-width: 768px) {
+    .slick-prev {
+        left: -3px!important;
+        top: 29%!important;
+        height: 20px!important;
+    } 
+    .slick-next {
+        right: 11px!important;
+        top: 29%!important;
+        height: 20px!important;
+    }
+    .contenedor-slider {
+        margin-bottom: 9rem;
+    }
+}

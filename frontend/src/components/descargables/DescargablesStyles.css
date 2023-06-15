@@ -1,0 +1,26 @@
+.titulo-documentos-descargables {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+.subtitulo-documentos-descargables {
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+.documentos-container {
+max-width: 900px;
+margin-top: 5rem;
+margin-bottom: 10rem;
+min-height: 185px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* text-align: center; */
+}
+.contenedor-boton-descargables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

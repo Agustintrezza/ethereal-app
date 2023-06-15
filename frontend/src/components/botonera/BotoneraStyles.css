@@ -1,0 +1,113 @@
+.logos {
+    color: white;
+    font-size: 13px;
+}
+/* .botonera {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    width: 37px;
+    bottom: 45px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-left: none;
+    row-gap: 0px;
+    z-index: 5!important;
+    background-color: #15151563;
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
+    transition: ease-in-out .1s;
+    border: 1px solid #466efd;
+} */
+.botonera {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    width: 42px;
+    bottom: 115px;
+    right: 25px;
+    height: 37px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    border-left: none;
+    row-gap: 0px;
+    z-index: 1000!important;
+    /* border: 1px solid #9f9f9f; */
+    /* border: 1px solid #63b1ffab; */
+    color: #9bc3ff;
+    /* background-color: rgba(0, 0, 0, 0.452); */
+    /* background-color: rgb(0 0 0 / 25%); */
+    /* background-color: rgb(0 0 0 / 62%); */
+    /* background-color:#e7e7e769; */
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #9bc3ff;
+    transition: ease-in-out .1s;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(181,181,181,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(181,181,181,1);
+box-shadow: 0px 0px 5px 0px rgba(181,181,181,1);
+    /* border: 1px solid #466efd; */
+}
+/* li {
+    list-style:none;
+} */
+.fa-sun {
+    background: url('../../assets/logos/sun.svg') no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 1px;
+    filter: invert(100%);
+    color: white !important;
+    
+    margin-bottom: 5px;
+    
+}
+.fa-moon {
+    background: url('../../assets/logos//moon.svg') no-repeat;
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 5px;
+    filter: invert(100%)
+}
+.icono-flecha {
+    font-size: 25px;
+    color: #287bf8!important;
+}
+.icono-flecha:hover {
+    font-size: 31px;
+    color: #0d6efd;
+}
+
+@media (max-width: 968px) {
+    .botonera {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        align-items: center;
+        width: 40px;
+        bottom: 105px;
+        right: 18px;
+        height: 40px;
+        /* border: 1px solid white; */
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+        row-gap: 0px;
+        z-index: 1000!important;
+        /* background-color: rgb(0 0 0 / 62%); */
+        background-color: #ffffff;
+        border: 1px solid #0d6efd6e;
+        transition: ease-in-out .1s;
+        
+    }
+    .icono-flecha {
+        font-size: 28px;
+    }
+}

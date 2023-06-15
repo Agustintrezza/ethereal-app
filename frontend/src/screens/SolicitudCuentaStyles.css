@@ -1,0 +1,303 @@
+.contenedor-solicitud-cuenta {
+    margin: auto;
+    width: 85%;
+}
+.contenedor-titulo-logo {
+    margin-bottom: 4rem;
+    margin-top: 3.1rem;
+}
+.contenedor-macro {
+    position: relative;
+}
+.logo-ethereal-horizontal-solicitud {
+    width: 24rem;
+    height: 10rem;
+    margin-top: .8rem;
+}
+.logo-ethereal-circular-solicitud {
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    top: 1rem;
+    margin-top: 19rem;
+}
+.enlace-flecha-volver {
+    font-size: 30px;
+}
+.titulo-registro-solicitud {
+    font-size: 38px;
+    font-weight: 300;
+}
+.texto-registro-solicitud {
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4rem;
+    line-height: 1.5;
+}
+.logo-ethereal-simple-solicitud {
+    width: 21rem;
+    height: 21rem;
+    filter: invert(5%);
+    z-index: -2;
+}
+.contenedor-logo-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-logo-circular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+}
+.titulo-solicitud-cuenta {
+    font-size: 36px;
+    font-weight: 400;
+    color:rgb(19, 19, 19);
+}
+.grid-solicitud-cuenta {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 8rem;
+    column-gap: 35px;
+}
+.grid-solicitud-cuenta-fomulario {
+    display: grid;
+    grid-template-columns: 55% 35%;
+    margin-bottom: 10rem;
+    margin-top: 6rem;
+    column-gap: 78px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.titulo-formulario {
+    font-size: 35px;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+}
+.boton-volver {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.refresh-icono {
+    font-size: 18px;
+}
+.texto {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #585858;
+}
+.preguntas {
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color:rgb(19, 19, 19)
+}
+.respuesta {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #585858;
+}
+.strong-experiencia {
+    font-size: 18px;
+    color:rgb(19, 19, 19)
+}
+.contenedor-pregunta {
+    margin-bottom: 1.5rem;
+}
+.label-formulario-solicitud-cuenta {
+    font-weight: 400;
+    color: #333333;
+    margin-top: 5px;
+    font-size: 15px!important;
+}
+.contenedor-formulario {
+    margin-bottom: -3rem;
+    margin-top: -1.5rem;
+}
+.contenedor-boton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.boton-solicitar-cuenta {
+    margin-top: 2rem;
+}
+
+.boton-card-all-solicitud-cuenta {
+    border-radius: 20px!important;
+    width: 100%!important;
+    height: 34px!important;
+    background-color: #ffffff!important;
+    color: #398dfa!important;
+    border: 1px solid #398dfa!important;
+    font-size: 16px!important;
+    font-weight: 400;
+    height: 30px;
+    border: 1px solid #3b3b3b;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px!important;
+    transition: all ease-in-out .2s;
+    text-decoration-color: white!important;
+}
+.boton-card-all-solicitud-cuenta:hover {
+    background-color: #398dfa!important;
+    color: white!important;
+    text-decoration-color: white!important;
+  }
+.mensaje-validacion-solicitar-cuenta {
+    margin-top: 4px!important;
+    margin-left: 0px;
+    font-size: 13px!important;
+    color: #ff2d41 !important;
+    margin-bottom: 0px;
+}
+
+.separacion-solicitud-reserva {
+    margin-bottom: 10rem;
+    color: rgb(135, 135, 135)
+}
+
+/* NOTIFICACIONES */
+
+.titulo-crear-notificacion {
+    font-size: 33px;
+    font-weight: 300;
+}
+.container-notificaciones {
+    width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+.titulo-cartelera-notificaciones {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.contenedor-cartelera-modificaciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: -.9rem;
+}
+.contenedor-card-notificacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 1.2rem;
+}
+.contenedor-card-notificacion-edicion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1px;
+    border-radius: 5px;
+    padding: 1.2rem;
+}
+.contenedor-contenido-notificacion {
+    display: flex;
+    justify-content: flex-start;
+}
+.contenedor-boton-actualizar-notificacion {
+    display: flex;
+    justify-content: flex-end;
+}
+.titulo-card-notificacion {
+    font-size: 18px;
+}
+.subtitulo-card-notificacion {
+    font-size: 14px;
+    color: #585858;
+    margin-bottom: 5px;
+}
+.texto-extenso-card-notificacion {
+    font-size: 14px;
+}
+.texto-breve-card-notificacion {
+    font-size: 13px;
+    line-height: 1.6;
+}
+.imagen-notificacion {
+    width: 6rem;
+    height: 6rem;
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+}
+.contenedor-titular-card-notificacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+}
+.contenedor-general-card-notificacion {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #f0f0f0;
+}
+.contenedor-fecha-card-notificacion {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.contenedor-macro-card-notificacion {
+    width: 100%!important;
+    border: none;
+}
+.contenedor-label-card-notificacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* CREAR NOTIFICACION */ 
+
+.container-crear-notificacion {
+    width: 85%;
+    margin: auto;
+}
+
+.contenedor-grid-crear-notificacion {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: flex-start;
+    margin-top: 4rem;
+    column-gap: 20px;
+    margin-bottom: 14rem;
+}
+.contenedor-titulo-crear-notificacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0rem;
+    margin-top: 4rem;
+}
+.enlace-link {
+    text-decoration: underline;
+    font-size: 16px;
+    width: 170px;
+    display: contents;
+}

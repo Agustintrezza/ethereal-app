@@ -1,0 +1,42 @@
+.whatsapp {
+    position: fixed;
+    font-size: 30px!important;
+    color: white;
+    bottom: 44px;
+    right: 20px!important;
+    z-index: 1000; 
+}
+.whatsapp:hover {
+    color: rgb(73, 199, 24);
+}
+.background-whastapp {
+    background-color: #55dc67;
+    width: 52px;
+    color: #ffffff;
+    height: 52px;
+    border-radius: 50%;
+    z-index: 2000;
+}
+.background-whastapp:hover {
+    color: #0d6efd;
+}
+@media(max-width:968px) {
+    .whatsapp {
+    position: fixed;
+    font-size: 30px!important;
+    color: white;
+    bottom: 35px;
+    right: 17px!important;
+    z-index: 1000;
+    }
+    .background-whastapp {
+    background-color: #44da58;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 2000;
+    right: 14px!important;
+    position: fixed;
+    bottom: 40px;
+    }
+}

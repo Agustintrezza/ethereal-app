@@ -1,0 +1,131 @@
+/* FORMULARIO AMPLICACIÓN CUPO */
+/* .contenedor-formulario-modificar-cupo {
+    margin-top: 8rem;
+}
+.subtitulo-formulario-modificar-cupo {
+    color: #0d6efd;
+}
+.texto-formulario-modificar-cupo {
+    color: rgb(30, 30, 30);
+    margin-bottom: -2rem;
+}
+.label-cupo-a-ampliar {
+    color: rgb(30, 30, 30);
+    font-size: 18px!important;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+}
+.contenedor-footer-amplicacion-cupo {
+    padding: 10px;
+}
+.texto-fecha-ampliacion-cupo-selected {
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    /* font-weight: 500; */
+/* }
+.texto-fecha-ampliacion-cupo {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400; */
+    /* font-weight: 500; */
+/* }
+.contenedor-input-ampliacion-cupo {
+    margin-top: -1rem;
+}
+.grid-panel-ampliacion-cupo {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contenedor-listado-ampliacion-cupos {
+    margin-top: 2rem;
+}
+.stockampliado-dato-negrita {
+    font-size: 20px;
+}
+.contenedor-stockampliado {
+    display: flex;
+    align-items: center;
+}
+.texto-cantidad-cupo-label {
+    font-size: 16px;
+    margin-right: 10px;
+}  */
+.link-imagen {
+    cursor: pointer;
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+}
+.link-imagen:hover {
+    text-decoration: underline;
+}
+.titulo-principal-crear-producto {
+    font-size: 40px;
+    margin-top: -10px;
+}
+.titulo-principal-crear-producto-servicios {
+    font-size: 35px;
+    margin-top: 3rem;
+}
+.subtitulo-principal-crear-producto {
+    font-size: 30px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.label {
+    font-size: 15px!important;
+}
+.label-descripciones {
+    font-size: 30px!important;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.contenedor-etiquetas-formulario-producto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contenedor-general-etiquetas-formulario-producto {
+    margin-top: 5rem;
+}
+.titulo-etiquetas-crear-producto {
+    font-size: 33px;
+    margin-top: 14px;
+}
+.deshabilitar-dias-crear-producto {
+    font-size: 33px;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+.grid-fechas-crear-producto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-dias-semana-deshabilitar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 50px;
+}
+.deshabilitar-dias-puntual-crear-producto {
+    font-size: 25px;
+    margin-top: -62px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.contenedor-calendario-crear-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-check {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    height: 30px;
+}
+.descripciones-crear-producto {
+    font-size: 38px;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}

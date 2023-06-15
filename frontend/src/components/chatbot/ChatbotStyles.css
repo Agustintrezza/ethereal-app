@@ -1,0 +1,166 @@
+.contenedor-chatbot-pasive {
+    display: none;
+}
+.contenedor-chatbot {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    z-index: 100;
+}
+.link-chat {
+    color: rgb(21, 71, 188);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    line-height: 4px;
+}
+
+.loWZyZ {
+    display: none!important;
+}
+
+.klQkBd {
+    border: 1px solid #64c1e0;
+    border-bottom: none!important;
+}
+.Bxhj {
+    margin-bottom: 1rem!important;
+ }
+.gkgSSs {
+    margin: 0;
+    font-size: 25px!important;
+    margin-left: 3px!important;
+    font-weight: 100;
+    margin-bottom: 4px!important;
+}
+ .hHDMCn {
+    margin-top: -9rem!important;
+}
+.EjxsF:disabled {
+    background: #fff!important;
+    margin-top: 4.5rem!important;
+    display: none!important;
+    z-index: 1!important;
+}
+.dBJKMC {
+    height: calc(552px - 112px)!important;
+}  
+.hIzWxM {
+    display: none;;
+} 
+.bpfncd {
+font-weight: 100;
+font-size: 15px!important;
+background-color: #ff000000!important;
+}
+.bKTAmG {
+font-weight: 100;
+font-size: 15px!important;
+}
+.yHFRg {
+    background: #d04f4f;
+    font-weight: 100;
+}
+.fuFTRa {
+    background-color: #e7e7e7c9!important;
+    color: black!important;
+    font-weight: 200;
+}
+.limWoi {
+    position: relative; 
+     margin-top: -33px!important;
+}
+.hIzWxM {
+    display: none;
+}
+
+.bpfncd {
+    max-width: 80%!important;
+}
+/* LOGO ROBOT */
+.eCndhm{
+    display: none;
+}
+
+/* Header chat */
+.ilbUTA {
+    z-index: 1;
+    font-weight: 100;
+font-size: 15px!important;
+background-color: #ff000000!important;
+-webkit-box-shadow: 1px 12px 22px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 12px 22px 1px rgba(0,0,0,0.75);
+box-shadow: 1px 12px 22px 1px rgba(0,0,0,0.75);
+}
+/* BORDE-CONTENEDOR */
+.xgzfZ {
+    border: 1px solid #64c1e0;
+    border-bottom: none!important;
+}
+/* LETRA Y BURBUJA BOT */
+.jwiWnQ {
+    background: #d04f4f;
+    font-weight: 200;
+}
+/* LETRA USUARIO */
+.dlEOZj {
+    background: #0fa0cfe6;
+    font-weight: 200;
+}
+/* ENTRADA DE TEXTO */
+.duCNrd:disabled {
+    display: none;
+}
+
+/*BUTON ENVIAR*/
+.bBBkHH {
+    display: none;
+}
+
+.lgDfkN {
+    -webkit-box-shadow: 1px -3px 18px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px -3px 18px 1px rgba(0,0,0,0.75);
+box-shadow: 1px -3px 18px 1px rgba(0,0,0,0.75);
+}
+
+
+/* LOGO CHAT */
+.hAEwKD {
+    display: none!important;
+}
+/* BURBUJA BOT */
+.gyigoR {
+    margin-left: 20px!important;
+}
+
+.cierre {
+    position: relative;
+    color: white;
+    right: -30rem;
+    top: 4.1rem;
+    z-index: 1000!important;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+.cierre:hover {
+    color: red;
+}
+
+
+
+
+/* RESPOSIVE */
+@media(max-width: 520px) {
+    .contenedor-chatbot {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0px;
+        right: 40px;
+        z-index: 100;
+        width: 80%;
+    }
+}

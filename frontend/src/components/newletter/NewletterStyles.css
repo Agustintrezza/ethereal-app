@@ -1,0 +1,37 @@
+.contenedor-general-newletter {
+    background-color: #f4f4f4;
+    min-height: 180px;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+-moz-box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+}
+.titulo-newsletter {
+    color: var(--primario);
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.subtitulo-newsletter {
+    font-size: 17px;
+}
+.contenedor-input {
+    padding-top: 2rem;
+}
+.input-newsletter {
+    width: 400px;
+    height: 45px;
+}
+.boton-newsletter {
+    width: 100px;
+    border-radius: 3rem;
+    margin-left: 2rem;
+    font-size: 15px;
+    height: 45px;
+}
+::placeholder{
+    font-size: 14px;
+}

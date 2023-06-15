@@ -1,0 +1,129 @@
+.custom-link {
+    color: white;
+    font-size: 18px!important;
+    margin-bottom: 10px;
+    font-weight: 400;
+    transition: all ease-in-out .2s;
+}
+.custom-link:hover {
+    text-decoration: underline;
+}
+.contenedor-general-footer {
+    background-color: #212020e0;
+    /* /* min-height: 261px; */
+    bottom: 0px!important;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;  
+    width: 100%;
+    -webkit-box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+-moz-box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+}
+.logo-logo-footer {
+    font-size: 20px;
+    margin-right: 15px;
+}
+.footer {
+    padding-top: 0rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.texto-footer {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.titulo-footer {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+.logo-footer {
+    font-size: 35px;
+    color: white;
+}
+.logo-footer:hover {
+    font-size: 35px;
+    color: #0e6ffd!important;
+}
+.contenedor-logos {
+    width: 80%;
+    margin: auto;
+}
+.contenedor-logo-ethereal-footer {
+    display: flex;
+    align-items: center;
+    /* column-gap: 10px; */
+    justify-content: center;
+}
+.copyright {
+    color: white;
+    font-size: 15px!important;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor-copyright {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #4d4d4d;
+    padding: 11px;
+    border-top: 1px solid #4c4c4c;
+    /* box-shadow: 36px 1px 10px 2px rgb(51 51 51); */
+}
+.boton-footer {
+    color: white;
+    border-radius: 3rem;
+    border: 2px solid white;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 3rem;
+}
+.logo-ethereal-footer {
+    width: 7rem;
+    height: 7rem;
+    margin-left: 20px;
+}
+.link-footer {
+    font-size: 17px!important;
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--primario);
+}
+@media (max-width:768px) {
+    .footer {
+        padding-top: 3rem;
+    }
+    .boton-footer {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 0rem!important;
+    }
+    .contenedor-general-footer {
+        padding: 4rem 0rem;
+    }
+    .contenedor-nav-footer {
+        margin: 5rem 0rem;
+    }
+    .contenedor-logo-ethereal-footer {
+        flex-direction: column;
+        row-gap: 40px;
+        margin-bottom: 2rem;
+    }
+    .link-footer {
+        font-size: 22px!important;
+        margin-left: 0px;
+        text-decoration: none;
+        color: var(--primario);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .logo-ethereal-footer {
+        margin-left: 0px;
+    }
+}

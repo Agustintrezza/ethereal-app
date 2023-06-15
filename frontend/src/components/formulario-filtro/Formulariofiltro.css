@@ -1,0 +1,96 @@
+.contenedor-general-formulariofiltro {
+    background-color: var(--azul);
+    background-color: rgb(203, 201, 201);
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    min-height: 390px;
+    -moz-box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+}
+
+.seleccion {
+    background-color: var(--grisClaro);
+    padding: 2rem;
+    height: 220px;
+}
+.radio-buttons {
+    margin-left: 10px;
+}
+.formulario {
+    background-color: white;
+    background-color: var(--azul);
+    border: 1px solid rgb(191, 191, 191);
+    padding: 3rem 2.5rem;
+    min-height: 290px;
+    -moz-box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+box-shadow: 0px 1px 10px 2px rgba(140,140,140,1);
+}
+.titulo-formulario {
+    font-size: 25px;
+    margin-right: 0px;
+    color: white;
+}
+.sutitulo-formulario {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 3px;
+    color: black;
+}
+.input {
+    height: 50px;
+}
+input:focus {
+    border: 2px solid rgba(109, 109, 109, 0.438)!important;
+}
+select:focus {
+    border: 2px solid rgba(74, 74, 74, 0.438)!important;
+}
+label {
+    margin: 0!important;
+}
+
+.switch {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 15px;
+    margin-left: 0px!important;
+}
+.boton-formulario {
+    border-radius: 20px;
+    font-size: 16px!important;
+    padding: 1rem;
+    width: 100px;
+    background-color: red;
+}
+
+
+@media (max-width:768px) {
+    .contenedor-general-formulariofiltro {
+        min-height: 550px;
+    }
+    .formulario {
+        min-height: 495px;
+    }
+    .radios {
+        padding: 1.2rem 0rem!important;
+    }
+    .sutitulo-formulario {
+        margin-top: -5px;
+        font-weight: 400;
+        margin-bottom: 0rem;
+    }
+}
+.logo-avion {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.logo-label {
+    color: white;
+    margin-left: 10px!important;
+    font-size: 17px;
+}
+.form-control:active {
+border: 1px solid white;
+}

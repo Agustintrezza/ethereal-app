@@ -1,0 +1,16 @@
+@media (max-width: 768) {
+    
+    
+    .contenedor-desc-secundaria {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contenedor-info-adicional {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}

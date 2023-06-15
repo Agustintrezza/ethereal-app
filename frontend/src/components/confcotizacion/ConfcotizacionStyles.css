@@ -1,0 +1,9 @@
+.contenedor-boton-confcotizacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-confcotizacion {
+    font-size: 20px!important;
+    text-decoration: underline;
+}

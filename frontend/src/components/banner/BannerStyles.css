@@ -1,0 +1,28 @@
+.imagen-par {
+    width: 100%;
+    /* height: 60%!important; */
+    height: 34.6rem;
+    border-radius: 1rem;
+    column-gap: 10px;
+    border: 1px solid rgb(189, 189, 189);
+    -webkit-box-shadow: 0px 3px 11px 0px rgba(87,87,87,1);
+-moz-box-shadow: 0px 3px 11px 0px rgba(87,87,87,1);
+box-shadow: 0px 3px 11px 0px rgba(87,87,87,1);
+}
+.imagen-principal {
+    width: 100%;
+    height: 89%;
+    border-radius: 1rem;
+    border: 1px solid var(--principal);
+    -webkit-box-shadow: 0px 3px 11px 0px rgba(87,87,87,1);
+-moz-box-shadow: 0px 3px 11px 0px rgba(87,87,87,1);
+box-shadow: 0px 3px 11px 0px rgba(87,87,87,1);
+}
+.margen-superior {
+    margin-top: 6rem;
+}
+
+/*RESPONSIVE*/
+@media (max-width:768px) {
+    
+}

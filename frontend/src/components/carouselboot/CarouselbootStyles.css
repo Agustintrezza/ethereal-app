@@ -1,0 +1,121 @@
+.imagen-carousel {
+    height: 55vh!important;
+}
+.imagen-carousel-principal {
+    height: 68vh;
+}
+.texto-carousel {
+    margin-bottom: 1rem;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 5rem;
+    height: 5rem;
+    font-weight: bold!important;
+    color: white
+}
+.carous {
+    position: relative;
+    height: 68vh!important;
+    -webkit-box-shadow: 0px 2px 6px 4px rgba(196,196,196,1);
+-moz-box-shadow: 0px 2px 6px 4px rgba(196,196,196,1);
+box-shadow: 0px 2px 6px 4px rgba(196,196,196,1);
+}
+.pie-de-imagen {
+    margin-bottom: 2rem;
+}
+.carousel-indicators {
+    margin-bottom: 3rem;
+}
+
+.carousel-indicators {
+    display: none;
+}
+.video-carousel {
+    min-height: 68vh;
+}
+.video {
+  object-fit: cover;
+  height: 100%;
+  position: absolute;
+}
+@media (max-width:768px) {
+    .video {
+        min-height: 51vh;
+      min-width: 100vw;
+      object-fit: cover;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+    }
+    .carous {
+        height: 51vh!important;
+    }
+}
+
+
+.contenedor-texto-carouselbootstrap {
+    position: absolute;
+    z-index: 1000;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.674);
+    padding: 1rem 4rem 2rem 4rem;
+    min-height: 200px;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1!important;
+    
+}
+.titulo-carouselbootstrap {
+    font-size: 55px;
+    font-weight: 300;
+    color:#80b7ff;
+    display: flex;
+}
+.subtitulo-carouselbootstrap {
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+}
+.seccion-agencias-strong {
+    font-weight: 600;
+    color:#80b7ff;
+    font-size: 32px;
+}
+.tercertitulo-carouselbootstrap {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.grid-cartel-carouselbootstrap {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 80%;
+    margin: auto;
+}
+.contenedor-boton-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-carousel {
+    background-color: #ffc107;
+    color: white;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0rem 3rem 0rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border: 1px solid #ffc107;
+    transition: all ease-in-out .3s;
+}
+.boton-carousel:hover {
+    color: rgb(76, 76, 76);
+    background-color: #eeb200;
+    border: 1px solid #fac936;
+    transform: scale(1.04);
+}
